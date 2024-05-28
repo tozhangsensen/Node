@@ -1,0 +1,17 @@
+{
+  "name": "sshub",
+  "version": "1.0.0",
+  "description": "ss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/main.js"
+  },
+  "author": "ss",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1"
+  }
+}
